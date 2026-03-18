@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right,green, blue);
+  background: linear-gradient(to right,aquamarine, blue);
   font-size:20px;
   margin: 0 10%;
   text-align: justify;
@@ -50,4 +50,30 @@ p:last-of-type {
 
 .externos{
     background-color: red;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+a:visited{
+    color:olivedrab
+}
+
+a:hover{
+    background-color:aqua;
+}
+
+a:active{
+    background-color: blueviolet;
+}
+
+img:not([alt]) {
+  border: 2px solid red;
+}
+
+@media (max-width: 750px) {
+  img {
+    float: none;
+  }
 }
